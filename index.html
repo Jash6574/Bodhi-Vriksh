@@ -1,0 +1,961 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bodhivriksh</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style(1).css">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   </head>
+
+   <style>
+
+    a{
+        text-decoration: none;
+    }
+
+   .startflow-accordions .accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+.startflow-accordions .accordion-item .accordion-heading {
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    padding: 22px 35px 22px 35px;
+    transition: color ease 0.3s, background ease 0.3s;
+}
+
+.startflow-accordions .accordion-item .accordion-heading > .inner {
+    display: block;
+    position: relative;
+}
+
+.startflow-accordions .accordion-item .accordion-heading:hover {
+    color: #1292ee;
+}
+
+.startflow-accordions .accordion-item .accordion-heading > .inner:before {
+    content: "\e623";
+    font-family: "Pe-icon-7-stroke";
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #1292ee;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    transition: all ease 0.3s;
+}
+
+.startflow-accordions .accordion-item.active .accordion-heading > .inner:before {
+    content: "\e644";
+    color: #fff;
+}
+
+.startflow-accordions .accordion-item .accordion-content > p:last-child {
+    margin-bottom: 0;
+}
+
+.startflow-accordions .accordion-item.has-number .accordion-heading > .inner {
+    position: relative;
+    padding-left: 50px;
+}
+
+.startflow-accordions .accordion-item .accordion-content {
+    padding: 30px 40px 30px 35px;
+    border-radius: 0 0 5px 5px;
+}
+
+.startflow-accordions .accordion-item .accordion-content > p {
+    margin-bottom: 18px;
+}
+
+
+/* Style 1 */
+
+.startflow-accordions .accordion-item.style-1 {
+    border: 0;
+    margin-bottom: 0;
+}
+
+.startflow-accordions .accordion-item.style-1.active .accordion-heading,
+.startflow-accordions .accordion-item.style-1.active .accordion-heading > .inner:before {
+    color: #1292ee;
+}
+
+.startflow-accordions .accordion-item.style-1 .accordion-heading {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+/* Style 2 */
+
+.startflow-accordions .accordion-item.style-2 .accordion-heading {
+    background-color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2 .accordion-content {
+    background-color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2.active .accordion-heading,
+.startflow-accordions .accordion-item.style-2.active .accordion-heading > .inner:before {
+    color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2.active .accordion-heading {
+    border-radius: 5px 5px 0 0;
+    background-color: #1292ee;
+}
+
+
+/* Step Box
+-------------------------------------------------------------- */
+
+.startflow-step-box {
+    text-align: center;
+    position: relative;
+}
+
+.startflow-step-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 23px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(45deg, #fff 0%, #1292ee 10%, #1292ee 90%, #fff 100%);
+    background: -webkit-linear-gradient(45deg, #fff 0%, #1292ee 10%, #1292ee 90%, #fff 100%);
+}
+
+.startflow-step-box .step-wrap {
+    margin: 0 -20px;
+}
+
+.startflow-step-box .number-box {
+    float: left;
+    padding: 0 20px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.startflow-step-box .number-box.col-6 {
+    width: 16.666%;
+}
+
+.startflow-step-box .number-box.col-5 {
+    width: 20%;
+}
+
+.startflow-step-box .number-box.col-4 {
+    width: 25%;
+}
+
+.startflow-step-box .number-box.col-3 {
+    width: 33.333%;
+}
+
+.startflow-step-box .number-box.col-2 {
+    width: 50%;
+}
+
+.startflow-step-box .number-box .number {
+    width: 50px;
+    height: 50px;
+    line-height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #1292ee;
+    text-align: center;
+    font-size: 22px;
+    color: #1292ee;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    transition: all ease 0.3s;
+}
+
+.startflow-step-box .number-box:hover .number {
+    box-shadow: 0 0 0 5px rgba(18, 146, 238, 0.2);
+    background-color: #1292ee;
+    color: #fff;
+}
+
+.startflow-step-box .number-box .heading {
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.startflow-step-box .number-box .desc {
+    margin: 13px 0 0;
+}
+
+@media only screen and ( max-width: 991px) {
+    .startflow-step-box:before {
+        display: none;
+    }
+    .startflow-step-box .step-wrap {
+        margin: 0;
+    }
+    .startflow-step-box .number-box {
+        padding-top: 70px;
+        margin: 0 0 40px;
+        width: 100% !important;
+    }
+    .startflow-step-box .number-box:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Action Box
+-------------------------------------------------------------- */
+
+.startflow-action-box .inner {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.startflow-action-box .heading-wrap {
+    display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.startflow-action-box .heading-wrap .heading {
+    margin: 0;
+}
+
+.startflow-action-box .url-wrap {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 20%;
+    padding-top: 8px;
+}
+
+@media only screen and ( max-width: 1230px) {
+    .startflow-action-box .heading-wrap {
+        width: 60%;
+    }
+    .startflow-action-box .url-wrap {
+        width: 40%;
+    }
+}
+
+@media only screen and ( max-width: 991px) {
+    .startflow-action-box .inner,
+    .startflow-action-box .heading-wrap,
+    .startflow-action-box .heading-wrap .heading,
+    .startflow-action-box .subheading-wrap > div,
+    .startflow-action-box .url-wrap {
+        width: 100% !important;
+        max-width: none !important;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .startflow-action-box.has-icon .heading-wrap > .text-wrap {
+        padding: 0 !important;
+    }
+    .startflow-action-box .heading-wrap {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .startflow-action-box .url-wrap {
+        padding-top: 0 !important;
+    }
+}
+
+   </style>
+
+   <body>
+       
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <header>
+        <!-- Header Start -->
+       <div class="header-area">
+            <div class="main-header ">
+               
+               <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-1 col-md-1">
+                                <div class="logo">
+                                  <a href="index.html"><img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" style="height: auto; max-width:100%;" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8 col-md-8">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav> 
+                                        <ul id="navigation">                                                                                                                                     
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="cases.html">Products</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>             
+                            <div class="col-xl-2 col-lg-3 col-md-3">
+                                <div class="header-right-btn f-right d-none d-lg-block">
+                                    <a href="contact.html" class="btn header-btn">Contact Now</a>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+
+        <!-- slider Area Start-->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-8">
+                                <div class="hero__caption">
+                                    <p data-animation="fadeInLeft" data-delay=".4s">Welcome to Bodhi-Vriksh</p>
+                                    <h1 data-animation="fadeInLeft" data-delay=".6s" >Start and Grow </br> your Business.</h1>
+                                    <h3 data-animation="fadeInLeft" data-delay=".6s" style="margin-top: -10px;margin-bottom: 15px;"> We build strategies, <br> confidence and your business.</h3>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
+                                        <a href="about.html" class="btn hero-btn" style="margin-top: 10px;">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- slider Area End-->
+
+        <!-- Team-profile Start -->
+        <div class="team-profile team-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/Online-Registration.webp" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Registrations</a></h4>
+                                    <p>We provide all type of registration in one roof as per your business need</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/accounting and auditing.webp" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Accounting and Auditing</a></h4>
+                                    <p>We provide starts and ends with a accurate accounting and auditing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/Human_recources.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Human Resources (HR)</a></h4>
+                                    <p>We provides HR Solutions to enhance the success of your organization</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/team_2.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Recruitment</a></h4>
+                                    <p>We have full expertise in end-to-end recruitments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/business-loan.webp" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Loans</a></h4>
+                                    <p>We provide transparent assistance for fulfilling their financial needs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <img src="assets/img/team/compiance.jpg" alt="">
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Compliance</a></h4>
+                                    <p>We working towards a higher level of compliance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Team-profile End-->
+
+        <!-- road to success start -->
+<center style="margin-top: -50px;">
+        <div class="startflow-spacer clearfix" data-desktop="100" data-mobi="60" data-smobi="60" style="height:100px;"></div></div></div></div></div></div></section></div><div class="vc-custom-col-spacing clearfix vc-col-spacing-30"><section class="wpb_row vc_row-fluid vc_custom_1561339228143 vc_row-has-fill"><div class="startflow-container"><div class="row-inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="startflow-content-box clearfix"><div class="vc-custom-col-inner-spacing clearfix vc-col-inner-spacing-30"><div class="wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-5"><div class="vc_column-inner"><div class="wpb_wrapper">
+            <div class="startflow-spacer clearfix" data-desktop="185" data-mobi="60" data-smobi="60"></div><div class="startflow-single-heading clearfix " style="margin-bottom:20px;"><span class="inner"><span class="heading clearfix  accent" style="font-size:20px;color: #ff656a;">
+                We Help to meet road to Success
+            </span></span></div><div class="startflow-headings clearfix " style=""><h2 class="heading clearfix " style="margin-bottom:20px;color: #002d5b;">
+                Special outstanding service to Companies
+            </h2><div class="extra-content clearfix" style="">
+                <div style="font-size: 16px; line-height: 29px; font-style: italic; margin-bottom: 12px;">Many Companies are not success in their great idea and huge potential. Very often that happens because they don’t know how to get registrations and what compliance required for their project or how to transform the business into profitable business with compliance.</div>
+        <div style="font-size: 16px; color: #002d5b; font-weight: bold;">We help them with these issues.</div>
+        
+            </div></div>
+            <div class="startflow-spacer clearfix" data-desktop="42" data-mobi="30" data-smobi="30" style="height:42px"></div>
+            <div class="button-wrap icon-right"><a href="http://eregistro.in/services/" target="_self" class="startflow-button btn-257024804 medium no_icon custom custom" style="border-radius:3px;" data-background="#2dce6c" data-text="#ffffff" data-text-hover="#ffffff" data-background-hover="#071e57">
+                <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
+                    <a href="services.html" class="btn hero-btn" style="margin-top: 10px;">Discover</a>
+                </div>
+            </a></div></div></div></div>
+            <div class="wpb_column vc_column_container vc_col-sm-7">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="startflow-parallax-box text-center" style="top:0px;">
+                            <div style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); display: inline-block;" data-parallax="{&quot;x&quot; : 0, &quot;y&quot; : -50}">
+                                <div class="startflow-simple-image text-center" style="">
+                    <img alt="image" src="C:\Users\Jash Mavani\OneDrive\Desktop\New folder (5)\buson-master\Bodhi-Vriksh\assets\img\about\img-23.png" data-pagespeed-url-hash="3320380244" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> 
+                </div></div></div></div></div></div></div></div></div></center>
+
+        <!-- road to success end -->
+
+        <!-- We Trusted Start-->
+        <div class="we-trusted-area trusted-padding">
+            <div class="container">
+                <div class="row d-flex align-items-end">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="trusted-img">
+                            <img src="assets/img/team/wetrusted.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="trusted-caption">
+                           <h2 style="color: #002d5b;">Why choose Us?</h2>
+                     <p>
+                        <div class="accordion col-xl-12 col-lg-12" id="accordionExample" style="padding-top:30px"  style="max-width: 100%">
+                            <div class="accordion-item" style="max-width: 100%">
+                              <h2 class="accordion-header" id="headingOne" style="max-width: 100%">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size:20px;font-weight:bold;width: 100%;text-align: left;background-color: #ff656a;">
+                                    Big Experience</button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>Thanks to our decades of diverse experience, we intuitively know and deliver what our clients need in order to be successful. We are well-versed when it comes to the tools and skills that are critical for effectively developing our client’s roadmap for change.</strong><br><br>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size:20px;font-weight:bold;width: 100%;text-align: left;background-color: #ff656a;">
+                                    Extensive Services
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>With support from our industry partners and network of experts, there’s not much we can’t do for our clients. Our services run far and wide.</strong><br><br>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size:20px;font-weight:bold;width: 100%;text-align: left;background-color: #ff656a;">
+                                    Personal Approach
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>We don’t believe in a cookie cutter approach to the work we do. There’s only one way to bring clarity to our clients – we take the time to listen first, and then act. We’ll create a customized plan that aligns with your needs and will be certain to deliver the success you desire.</strong><br><br>
+                                </div>
+                              </div>
+                            </div>
+            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size:20px;font-weight:bold;width: 100%;text-align: left;background-color: #ff656a;">
+                                    Assess, Align, Achieve
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>We employ the Assess, Align, Achieve approach. It’s a fundamental yet highly effective process that helps our clients realize clarity and success. First, we assess your current state in terms of strengths and opportunities. From there, we align your people, processes and priorities to a strategy. In doing so, we achieve your goals, your objectives and your desired outcome.</strong><br><br>
+                                  </div>
+                                </div>
+                              </div>
+            
+                          </div><div class="startflow-spacer clearfix" data-desktop="0" data-mobi="40" data-smobi="40" style="height:0px">
+                     
+                    
+                    </div>
+
+                     
+                    </div>
+
+                    
+                </div>
+
+
+            </div>
+            
+        </div>
+	<div class="startflow-spacer clearfix" data-desktop="100" data-mobi="60" data-smobi="60" style="height:100px"></div></div></div></div></div></div></section></div><div class="vc-custom-col-spacing clearfix vc-col-spacing-30"><section class="wpb_row vc_row-fluid no-padding"><div class="row-inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="startflow-single-heading clearfix text-center" style="margin-bottom:20px;"><span class="inner"><span class="heading clearfix  accent" style="font-size:20px;color: #ff656a;">
+		Portfolio
+	</span></span></div><div class="startflow-headings clearfix text-center" style=""><h2 class="heading clearfix " style="margin-bottom:12px;">
+		Our Services — the single-source solution
+	</h2><p class="sub-heading clearfix" style="font-style:normal;font-size:18px;line-height:29px;max-width:800px;margin-left: auto; margin-right: auto;">
+		Our constant innovation and continued investment in new technology helps us to provide our clients with realistic, practical and cost efficient solutions.
+	</p></div></p>
+    
+   <div class="team-profile team-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/project1-1-600x400.jpg" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Recruitment</a></h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/blog-img8-600x400.jpg" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Registration</a></h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/img-42-600x400.png" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Account and Audit</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/blog-img9-600x400.jpg" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Human Resourses</a></h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/case-img2-600x400.jpg" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Loans</a></h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                <div class="profile-img">
+                                    <a href="#"><img src="assets/img/gallery/project5-3-600x385.jpg" alt=""></a>
+                                </div>
+                                <div class="profile-caption">
+                                    <h4><a href="#">Compliance</a></h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <!-- We Trusted End-->
+
+        <!-- services Area Start-->
+        
+        <!-- services Area End-->
+        
+        <!-- Completed Cases Start -->
+        
+        <!-- Completed Cases end -->
+
+        <!-- Testimonial Start -->
+        <div class="testimonial-area fix">
+            <div class="container">
+               <div class="row justify-content-center"  >
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="h1-testimonial-active">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center">
+                                    <p>
+                                        Let’s work together! We want to know more about the needs of your needs. </p>
+                                    <!-- Rattion -->
+                                    
+                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
+                                        <a href="contact.html" class="btn hero-btn" style="margin-top: 10px;">Contact US</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- Single Testimonial -->
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Recent Area Start -->
+        <div class="recent-area section-paddingt">
+            <div class="container">
+                <!-- section tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle text-center">
+                            <h2 style="font-size:40px; color: #071e57;">Our Recent News And Article</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="assets/img/recent/rcent_1.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span><a href="#">Marketing</a></span>
+                                <h4><a href="https://eregistro.in/2019/05/01/5-questions-to-ask-before-you-build-your-product/">5 Questions to Ask Before You build Your Product</a></h4>
+                                <p>- By <a href="#">Admin </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="assets/img/recent/rcent_2.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span><a href="#">Startup</a></span>
+                                <h4><a href="https://eregistro.in/2019/01/29/how-you-can-empower-change-in-your-startup/">How You Can Empower Change In Your Startup</a></h4>
+                                <p>- By <a href="#"> Admin </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="assets/img/recent/rcent_3.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span><a href="#"> UI Design </a></span>
+                                <h4><a href="https://eregistro.in/2019/01/29/co-working-spaces-and-their-benefits/">Co-Working Spaces and Their Benefits</a></h4>
+                                <p>- By <a href="#"> Admin </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Recent Area End-->
+
+        <!-- Request Back Start -->
+        <div class="request-back-area section-padding30">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-4 col-lg-5 col-md-5">
+                        <div class="request-content">
+                            <h3>Feedback</h3>
+                            <p>We Appreciate Your Feedback, <br> Thank You ...</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7">
+                        <!-- Contact form Start -->
+                        <div class="form-wrapper">
+                            <form id="contact-form" action="#" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-box  mb-30">
+                                            <input type="text" name="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-box mb-30">
+                                            <input type="text" name="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 mb-30">
+                                        <div class="form-box mb-30">
+                                            <input type="text" name="msg" placeholder="Message">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <button type="submit" class="send-btn">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>     <!-- Contact form End -->
+                </div>
+            </div>
+        </div>
+        <!-- Request Back End -->
+
+    </main>
+   <footer>
+       <!-- Footer Start-->
+       <div class="footer-area footer-padding">
+           <div class="container">
+               <div class="row d-flex justify-content-between">
+                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                      <div class="single-footer-caption mb-50">
+                        <div class="single-footer-caption mb-30">
+                             <!-- logo -->
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" alt=""></a>
+                            </div>
+                            <div class="footer-tittle">
+                                <div class="footer-pera">
+                                    <p><a href="mailto:bodhivrikshbizsol@gmail.com" style="color: #868c98;">bodhivrikshbizsol@gmail.com</a></p>
+                                    <p style="margin-top: -50px;"><a href="tel:+918980076667" style="color: #868c98;">(+91) 898 007 6667</a></p>
+                                    
+                               </div>
+                            </div>
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Products</h4>
+                               <ul>
+                                   <li><a>Registration</a></li>
+                                   <li><a>Account and Audit</a></li>
+                                   <li><a>HR</a></li>
+                                   <li><a>Compliance</a></li>
+                                   
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Support</h4>
+                               <ul>
+                                   <li><a>About</a></li>
+                                   <li><a>Help Desk</a></li>
+                                   <li><a>Security</a></li>
+                                   <li><a>Privacy
+                                   </a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Get in Touch</h4>
+                               <ul>
+                                <li><a>Raama Crest </a></li>
+                                <li><a>Sunpharma Road,</a></li>
+                                <li><a>Vadodara - 390020</a></li>
+                                <li><a>Gujarat, India</a></li>
+                            </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- footer-bottom aera -->
+       <div class="footer-bottom-area footer-bg">
+           <div class="container">
+               <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right text-center">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy; 2019 <a href="#">Bodhivriksh.co.in</a> - All rights reserved | <a href="#">Terms and Conditions</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <!-- Footer End-->
+   </footer>
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
+</html>

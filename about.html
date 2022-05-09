@@ -1,0 +1,931 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bodhivriksh</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
+
+        
+   </head>
+
+   <style>
+       @media only screen and ( max-width: 991px) {
+    .trusted-caption{
+        max-width: 100%;
+    }
+    .jash{
+        text-align: center;
+    }
+}
+
+    .startflow-accordions .accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+.startflow-accordions .accordion-item .accordion-heading {
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    padding: 22px 35px 22px 35px;
+    transition: color ease 0.3s, background ease 0.3s;
+}
+
+.startflow-accordions .accordion-item .accordion-heading > .inner {
+    display: block;
+    position: relative;
+}
+
+.startflow-accordions .accordion-item .accordion-heading:hover {
+    color: #1292ee;
+}
+
+.startflow-accordions .accordion-item .accordion-heading > .inner:before {
+    content: "\e623";
+    font-family: "Pe-icon-7-stroke";
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #1292ee;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    transition: all ease 0.3s;
+}
+
+.startflow-accordions .accordion-item.active .accordion-heading > .inner:before {
+    content: "\e644";
+    color: #fff;
+}
+
+.startflow-accordions .accordion-item .accordion-content > p:last-child {
+    margin-bottom: 0;
+}
+
+.startflow-accordions .accordion-item.has-number .accordion-heading > .inner {
+    position: relative;
+    padding-left: 50px;
+}
+
+.startflow-accordions .accordion-item .accordion-content {
+    padding: 30px 40px 30px 35px;
+    border-radius: 0 0 5px 5px;
+}
+
+.startflow-accordions .accordion-item .accordion-content > p {
+    margin-bottom: 18px;
+}
+
+
+/* Style 1 */
+
+.startflow-accordions .accordion-item.style-1 {
+    border: 0;
+    margin-bottom: 0;
+}
+
+.startflow-accordions .accordion-item.style-1.active .accordion-heading,
+.startflow-accordions .accordion-item.style-1.active .accordion-heading > .inner:before {
+    color: #1292ee;
+}
+
+.startflow-accordions .accordion-item.style-1 .accordion-heading {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+/* Style 2 */
+
+.startflow-accordions .accordion-item.style-2 .accordion-heading {
+    background-color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2 .accordion-content {
+    background-color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2.active .accordion-heading,
+.startflow-accordions .accordion-item.style-2.active .accordion-heading > .inner:before {
+    color: #fff;
+}
+
+.startflow-accordions .accordion-item.style-2.active .accordion-heading {
+    border-radius: 5px 5px 0 0;
+    background-color: #1292ee;
+}
+
+
+/* Step Box
+-------------------------------------------------------------- */
+
+.startflow-step-box {
+    text-align: center;
+    position: relative;
+}
+
+.startflow-step-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 23px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(45deg, #fff 0%, #1292ee 10%, #1292ee 90%, #fff 100%);
+    background: -webkit-linear-gradient(45deg, #fff 0%, #1292ee 10%, #1292ee 90%, #fff 100%);
+}
+
+.startflow-step-box .step-wrap {
+    margin: 0 -20px;
+}
+
+.startflow-step-box .number-box {
+    float: left;
+    padding: 0 20px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.startflow-step-box .number-box.col-6 {
+    width: 16.666%;
+}
+
+.startflow-step-box .number-box.col-5 {
+    width: 20%;
+}
+
+.startflow-step-box .number-box.col-4 {
+    width: 25%;
+}
+
+.startflow-step-box .number-box.col-3 {
+    width: 33.333%;
+}
+
+.startflow-step-box .number-box.col-2 {
+    width: 50%;
+}
+
+.startflow-step-box .number-box .number {
+    width: 50px;
+    height: 50px;
+    line-height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #1292ee;
+    text-align: center;
+    font-size: 22px;
+    color: #1292ee;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    transition: all ease 0.3s;
+}
+
+.startflow-step-box .number-box:hover .number {
+    box-shadow: 0 0 0 5px rgba(18, 146, 238, 0.2);
+    background-color: #1292ee;
+    color: #fff;
+}
+
+.startflow-step-box .number-box .heading {
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.startflow-step-box .number-box .desc {
+    margin: 13px 0 0;
+}
+
+@media only screen and ( max-width: 991px) {
+    .startflow-step-box:before {
+        display: none;
+    }
+    .startflow-step-box .step-wrap {
+        margin: 0;
+    }
+    .startflow-step-box .number-box {
+        padding-top: 70px;
+        margin: 0 0 40px;
+        width: 100% !important;
+    }
+    .startflow-step-box .number-box:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Action Box
+-------------------------------------------------------------- */
+
+.startflow-action-box .inner {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.startflow-action-box .heading-wrap {
+    display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.startflow-action-box .heading-wrap .heading {
+    margin: 0;
+}
+
+.startflow-action-box .url-wrap {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 20%;
+    padding-top: 8px;
+}
+
+@media only screen and ( max-width: 1230px) {
+    .startflow-action-box .heading-wrap {
+        width: 60%;
+    }
+    .startflow-action-box .url-wrap {
+        width: 40%;
+    }
+}
+
+@media only screen and ( max-width: 991px) {
+    .startflow-action-box .inner,
+    .startflow-action-box .heading-wrap,
+    .startflow-action-box .heading-wrap .heading,
+    .startflow-action-box .subheading-wrap > div,
+    .startflow-action-box .url-wrap {
+        width: 100% !important;
+        max-width: none !important;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .startflow-action-box.has-icon .heading-wrap > .text-wrap {
+        padding: 0 !important;
+    }
+    .startflow-action-box .heading-wrap {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    .startflow-action-box .url-wrap {
+        padding-top: 0 !important;
+    }
+}
+
+   </style>
+   
+   
+
+   <body>
+       
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <header>
+        <!-- Header Start -->
+       <div class="header-area">
+            <div class="main-header ">
+                <!-- <div class="header-top top-bg d-none d-lg-block">
+                   <div class="container-fluid">
+                       <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>     
+                                        <li><i class="fas fa-map-marker-alt"></i>65/A, 17th floor, Kings land, New York</li>
+                                        <li><i class="fas fa-envelope"></i>info@consulting.com</li>
+                                    </ul>
+                                </div>
+                                <div class="header-info-right">
+                                    <ul class="header-social">    
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                       <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+                </div> -->
+               <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-1 col-md-1">
+                                <div class="logo">
+                                  <a href="index.html"><img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" style="height: auto; max-width:100%;" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8 col-md-8">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav> 
+                                        <ul id="navigation">                                                                                                                                     
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="cases.html">Products</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>             
+                            <div class="col-xl-2 col-lg-3 col-md-3">
+                                <div class="header-right-btn f-right d-none d-lg-block">
+                                    <a href="contact.html" class="btn header-btn">Contact Now</a>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+
+        <!-- slider Area Start-->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="single-slider slider-height2 d-flex align-items-center" data-background="assets/img/hero/contact_hero.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>About Our Company</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider Area End-->
+
+        <!-- We Trusted Start-->
+        <div class="we-trusted-area trusted-padding">
+            <div class="container">
+                <div class="row d-flex align-items-end">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="trusted-img">
+                            <a href="https://youtu.be/i4czp_JxPzA"><img src="assets/img/team/img-34.jpeg" alt="" ></a><br><br>
+                            <div>
+                            <ul>
+                                <li><h2 style="color:#ff656a;" class="jash">1000+</h2></li>
+                                <li><p class="jash">HAPPY CUSTOMER</p></li>
+                                <li><p class="jash">We believe in success of business</p></li><hr>
+                            </ul>
+                            </div>
+                            <div>
+                            <ul>   
+                                <li><h2 style="color:#ff656a ;" class="jash">1000+</h2></li>
+                                <li><p class="jash">COMPLETED PROJECTS</p></li>
+                                <li><p class="jash">We believe in timely completion of work</p></li>
+                            </ul>    
+                            </div><br><br>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+
+                        <div class="trusted-caption" style="width:170%;">
+                           <h2 style="font-size: 30px; color: #002d5b;">We're revolutionising the way businesses are started</h2>
+                           <p>Bodhivriksh Bizsol LLP is the single-source solution to a complete range of registrations, accounts, finance and human resources issues that every company confronts in today’s competitive business environment. Our talent acquisition solutions are based on our number of years of experience helping clients to maximize the performance of their Account, Finance, HR department resulting to the overall growth of the organization.
+                           <br><br>
+                            We are experts in legal, professional and financial advisory services and help our clients in setting up their business entities and managing various business functions feasibly and effectively. All our services aim at helping our clients decode the legal and regulatory requirements related to their business. Our aim is to become the ‘partner of choice’ when it comes to incorporate and managing business in India.
+                            <br><br>
+                            We ensure that each of our clients, irrespective of the size of their undertakings, receive the kind of personalized attention that is usually attributed to only the biggest clients. Our constant innovation and continued investment in new technology helps us to provide our clients with realistic, practical and cost efficient solutions.
+                            <br><br>
+                            Working with us has many benefits for you, your business and your stakeholders. We are known for our creative, yet professional approach, which is based on establishing a unique relationship with each of our clients.
+                            <br><br>
+                            Our team is comprised of experienced HR Consultants, Chartered Accountants, Company Secretaries, Lawyers, Cost Accountants, Chartered Engineers and Bankers. Backed by great experience in our professionals assist entrepreneurs in picking the right way of setting up their business entities.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- We Trusted End-->
+
+        <!-- Team-profile Start -->
+        <div class="team-profile team-padding">
+            <div class="container">
+                <center style="margin-bottom: 50px;"><h1 style="color: #002d5b;font-weight: bolder;">We match your unique business needs with our deep understanding of freelancer</h1></center>
+                <div class="row">
+                  
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div class="single-profile-back-last">
+                                <h2 style="color: #002d5b;">Work With Us</h2>
+                                <p>Let us know how we can help! <br>Get in touch and we’ll give you a fresh perspective on your business.</p>
+                                <a href="#">View profile »</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div class="single-profile-back-last">
+                                <h2 style="color: #002d5b;">Our Process</h2>
+                                <p>After a collaborative assessment we’ll explore your business problems and needs co-creatively.</p>
+                                <a href="#">View profile »</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div class="single-profile-back-last">
+                                <h2 style="color: #002d5b;">How We Help</h2>
+                                <p>We provide business development, marketing, planning, operations and financial services.</p>
+                                <a href="#">View profile »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team-profile End-->
+
+
+
+        <div class="team-profile team-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Front -->
+                            <div class="single-profile-front">
+                                
+                                <div>
+                                    <div class="profile-img"></div>
+                                    <img src="assets\img\about/img-36.png" style=" width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-xl-6 col-lg-2 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <h4 style="color: #ff656a;">Working Globally With Enterprise Partners</h4><br>
+                                <h2 style="color: #002d5b;font-size: 38px;">Starting a business should be simple</h2><br>
+                                <p style="font-size: 17px;">Our mission is to provide with consistently superior and proficient services which will improve their productivity and profitability on both a corporate and personal level.</p>
+                                <p><span style="color: #ff656a; font-size: 35px;">&#10003</span>&nbsp;&nbsp;Create and decide your business needs</p>
+                                <br>
+                                <p><span style="color: #ff656a; font-size: 35px;">&#10003</span>&nbsp;&nbsp;Get expert view on your business needs</p>
+                                <br>
+                                <p><span style="color: #ff656a; font-size: 35px;">&#10003</span>&nbsp;&nbsp;Full support to become a compliant company</p>
+                                <br><div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
+                                    <a href="https://eregistro.in/contact-us/" class="btn hero-btn" style="margin-top: 10px;">Contact US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>   
+
+
+
+        
+        <div class="team-profile team-padding" style="background-color: #002d5b;">
+            <div class="container">
+                <h1 class="jash" style="color: white;text-align: center;">Special Out-standing Services</h1>
+                <div class="row">
+                  
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <h1 style="color: #ff656a;text-align: center;margin-top: 100px;">50%</h1>
+                                <p style="font-size: 17px;text-align: center;">Less spending</p><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <h1 style="color: #ff656a;text-align: center;margin-top: 100px;">24x7</h1>
+                                <p style="font-size: 17px;text-align: center;">Availability of business</p><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <h1 style="color: #ff656a;text-align: center;margin-top: 100px;">200%</h1>
+                                <p style="font-size: 17px;text-align: center;">Increase in last year</p><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <h1 style="color: #ff656a;text-align: center;margin-top: 100px;">100%</h1>
+                                <p style="font-size: 17px;text-align: center;">Satisfied Customers</p><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="team-profile team-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div><center>
+                                <img src="assets\img\team\sunil agrawal.jpg"></center><br>
+                                <h2 style="font-size: 27px;text-align: center;">Sunil Agrwal</h2>
+                                <p style="font-size: 17px;text-align: center;">Associate Member</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <center>
+                                    <img src="assets\img\team\jaimin patel.jpg"></center><br>
+                                    <h2 style="font-size: 27px;text-align: center;">Jaimin Patel</h2>
+                                    <p style="font-size: 17px;text-align: center;">Co-Founder</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <center>
+                                    <img src="assets\img\team\lal vallabh mishra.jpg"></center><br>
+                                    <h2 style="font-size: 27px;text-align: center;">Lal Vallabh Mishra</h2>
+                                    <p style="font-size: 17px;text-align: center;">Co-Founder</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="single-profile mb-30">
+                            <!-- Back -->
+                            <div>
+                                <center>
+                                    <img src="assets\img\team\kamlesh patel.jpg"></center><br>
+                                    <h2 style="font-size: 27px;text-align: center;">Kamlesh Patel</h2>
+                                    <p style="font-size: 17px;text-align: center;">Associate Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      
+        <!-- Testimonial Start -->
+        <div class="testimonial-area">
+            <div class="container">
+               <div class="row justify-content-center">
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="h1-testimonial-active">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/logo/testimonial1.jpg" class="ani-btn " alt=""><br>
+                                
+                                <div class="rattiong-caption" style="text-align: center;">
+                                    <span>THOMAS SMITH<span> - Themeforest USer</span> </span>
+                                </div></div>
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center" >
+                                    <p>"Great theme, with excellent availability of resources and flexibility to personalize any type of website. Congratulations with theme!"</p>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/logo/testimonial2.jpg"  class="ani-btn" alt=""><br>
+
+                                    <div class="rattiong-caption" style="text-align: center;">
+                                        <span>ANGIE OTTIX<span> - Themeforest USer</span> </span>
+                                    </div>
+                                </div>
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center">
+                                    <p>"Their service responded within a few minutes. So happy with this template and my customer loves it too! Will definitely use Ninzio themes again!"</p>
+                                    
+                                    
+                                </div>
+                            </div>
+
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/logo/testimonial3.jpg"  class="ani-btn" alt=""><br>
+                                    
+                                    <div class="rattiong-caption" style="text-align: center;">
+                                        <span>MARIO CRUISER<span> - Themeforest USer</span> </span>
+                                    </div>
+                                </div>
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center">
+                                    <p>"Support took care of everything quickly and had us up and running within a few hours. Thank you so much for providing brilliant services. Highly recommended!"</p>
+                                    
+                                    
+                                </div>
+                            </div>
+
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/logo/testimonial4.jpg"  class="ani-btn" alt=""><br>
+
+                                    <div class="rattiong-caption" style="text-align: center;">
+                                        <span>ANNA TURNER<span> - Themeforest USer</span> </span>
+                                    </div>
+                                </div>
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center">
+                                    <p>"Excellent customer support. Quick reply and they solved the problem completely and saved me from having to rebuild the entire website. Thanks!"</p>
+                                    
+                                    
+                                </div>
+                            </div>
+
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial pt-65">
+                                <!-- Testimonial tittle -->
+                                <div class="testimonial-icon mb-45">
+                                    <img src="assets/img/logo/testimonial5.jpg"  class="ani-btn" alt=""><br>
+
+                                    <div class="rattiong-caption" style="text-align: center;">
+                                        <span>PAUL MOLIVE<span> - Themeforest USer</span> </span>
+                                    </div>
+                                </div>
+                                 <!-- Testimonial Content -->
+                                <div class="testimonial-caption text-center">
+                                    <p>"Love this theme. Gorgeous layout, fits my needs exactly. Custom support is really fantastic!! Very pleased and I highly recommend!"</p>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Recent Area Start -->
+        <div class="recent-area section-paddingt">
+            <div class="container">
+                
+            </div>
+        </div>
+        <!-- Recent Area End-->
+
+         <!-- Request Back Start -->
+         <div class="request-back-area section-padding30">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-4 col-lg-5 col-md-5">
+                        <div class="request-content">
+                            <h3>Feedback</h3>
+                            <p>We Appreciate Your Feedback, <br> Thank You ...</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7">
+                        <!-- Contact form Start -->
+                        <div class="form-wrapper">
+                            <form id="contact-form" action="#" method="POST">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-box  mb-30">
+                                            <input type="text" name="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-box mb-30">
+                                            <input type="text" name="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 mb-30">
+                                        <div class="form-box mb-30">
+                                            <input type="text" name="msg" placeholder="Message">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <button type="submit" class="send-btn">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>     <!-- Contact form End -->
+                </div>
+            </div>
+        </div>
+        <!-- Request Back End -->
+
+    </main>
+   <footer>
+       <!-- Footer Start-->
+       <div class="footer-area footer-padding">
+           <div class="container">
+               <div class="row d-flex justify-content-between">
+                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                      <div class="single-footer-caption mb-50">
+                        <div class="single-footer-caption mb-30">
+                             <!-- logo -->
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/img/logo/BODHIVRIKSH-FINAL-LOGO.png" alt=""></a>
+                            </div>
+                            <div class="footer-tittle">
+                                <div class="footer-pera">
+                                    <p><a href="mailto:bodhivrikshbizsol@gmail.com" style="color: #868c98;">bodhivrikshbizsol@gmail.com</a></p>
+                                    <p style="margin-top: -50px;"><a href="tel:+918980076667" style="color: #868c98;">(+91) 898 007 6667</a></p>
+                                    
+                               </div>
+                            </div>
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Products</h4>
+                               <ul>
+                                   <li><a>Registration</a></li>
+                                   <li><a>Account and Audit</a></li>
+                                   <li><a>HR</a></li>
+                                   <li><a>Compliance</a></li>
+                                   
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Support</h4>
+                               <ul>
+                                   <li><a>About</a></li>
+                                   <li><a>Help Desk</a></li>
+                                   <li><a>Security</a></li>
+                                   <li><a>Privacy
+                                   </a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                       <div class="single-footer-caption mb-50">
+                           <div class="footer-tittle">
+                               <h4>Get in Touch</h4>
+                               <ul>
+                                <li><a>Raama Crest </a></li>
+                                <li><a>Sunpharma Road,</a></li>
+                                <li><a>Vadodara - 390020</a></li>
+                                <li><a>Gujarat, India</a></li>
+                            </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- footer-bottom aera -->
+       <div class="footer-bottom-area footer-bg">
+           <div class="container">
+               <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right text-center">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy; 2019 <a href="#">Bodhivriksh.co.in</a> - All rights reserved | <a href="#">Terms and Conditions</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <!-- Footer End-->
+   </footer>
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
+</html>
